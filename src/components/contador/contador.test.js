@@ -14,7 +14,7 @@ describe('Contador component', () => {
 
   it('should render a span element with "Cuenta: 0"', () => {
     const countTxt = wrapper.find('span').text();
-    expect(countTxt).toBe('Cuenta: 0');
+    expect(countTxt).toBe('Cuenta: 1');
   })
 
   it('should increment the count when the increment button is clicked', () => {
