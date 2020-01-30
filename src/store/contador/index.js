@@ -6,7 +6,7 @@ export default function contador(state = 0, action) {
     case INCREMENT:
       return state + 1;
     case DECREMENT:
-      return state - 1;
+      return state - 2;
     default:
       return state;
   }
